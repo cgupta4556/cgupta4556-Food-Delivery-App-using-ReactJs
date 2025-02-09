@@ -34643,7 +34643,7 @@ $RefreshReg$(_c, "CartItem");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/constants":"hB8jg"}],"gmw0Q":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../utils/constants":"hB8jg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gmw0Q":[function(require,module,exports,__globalThis) {
 module.exports = require("3e388a6f50c9b646")(require("6d84fe6138e1edf9").getBundleURL('fndx7') + "Grocery.f41263dc.js").catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
