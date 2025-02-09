@@ -1,15 +1,19 @@
 {
+  "homepage": "https://cgupta4556.github.io/cgupta4556-Food-Delivery-App-using-ReactJs",
   "name": "namsate",
   "version": "1.0.0",
   "description": "this is namaste react by akshay saini",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3",
     "process": "^0.11.10"
   },
